@@ -1,0 +1,58 @@
+{
+    "IN": [
+        "Pakistan",
+        "China",
+        "Nepal",
+        "Bhutan",
+        "Bangladesh",
+        "Myanmar",
+        "Sri Lanka"
+    ],
+    "US": [
+        "Canada",
+        "Mexico"
+    ],
+    "NZ": [
+        "Australia"
+    ],
+    "CA": [
+        "United States"
+    ],
+    "AU": [
+        "New Zealand"
+    ],
+    "CN": [
+        "India",
+        "Pakistan",
+        "Nepal",
+        "Bhutan",
+        "Myanmar",
+        "Russia",
+        "Mongolia"
+    ],
+    "FR": [
+        "Germany",
+        "Belgium",
+        "Spain",
+        "Italy",
+        "Switzerland",
+        "Luxembourg"
+    ],
+    "DE": [
+        "France",
+        "Poland",
+        "Austria",
+        "Switzerland",
+        "Netherlands",
+        "Belgium"
+    ],
+    "BR": [
+        "Argentina",
+        "Bolivia",
+        "Peru",
+        "Colombia",
+        "Venezuela",
+        "Paraguay",
+        "Uruguay"
+    ]
+}
