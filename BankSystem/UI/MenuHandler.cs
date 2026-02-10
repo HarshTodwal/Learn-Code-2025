@@ -1,10 +1,8 @@
 using BankingSystem.Interfaces;
 using BankingSystem.Utilities;
 
-namespace BankingSystem.UI
-{
-    public class MenuHandler
-    {
+namespace BankingSystem.UI{
+    public class MenuHandler{
         private readonly IAccountService _accountService;
         private readonly ITransactionService _transactionService;
         private readonly ILoanService _loanService;
@@ -19,12 +17,10 @@ namespace BankingSystem.UI
             _loanService = loanService;
         }
 
-        public void ShowMainMenu()
-        {
+        public void ShowMainMenu(){
             bool running = true;
 
-            while (running)
-            {
+            while (running){
                 ConsoleHelper.DisplayHeader("BANKING SYSTEM - MAIN MENU");
                 
                 Console.WriteLine("1. Account Management");
@@ -34,8 +30,7 @@ namespace BankingSystem.UI
                 
                 string choice = ConsoleHelper.ReadString("\nSelect an option: ");
 
-                switch (choice)
-                {
+                switch (choice){
                     case "1":
                         ShowAccountMenu();
                         break;
@@ -57,12 +52,10 @@ namespace BankingSystem.UI
             }
         }
 
-        private void ShowAccountMenu()
-        {
+        private void ShowAccountMenu(){
             bool back = false;
 
-            while (!back)
-            {
+            while (!back){
                 ConsoleHelper.DisplayHeader("ACCOUNT MANAGEMENT");
                 
                 Console.WriteLine("1. Create New Account");
@@ -72,8 +65,7 @@ namespace BankingSystem.UI
                 
                 string choice = ConsoleHelper.ReadString("\nSelect an option: ");
 
-                switch (choice)
-                {
+                switch (choice){
                     case "1":
                         CreateAccount();
                         break;
@@ -94,12 +86,10 @@ namespace BankingSystem.UI
             }
         }
 
-        private void ShowTransactionMenu()
-        {
+        private void ShowTransactionMenu(){
             bool back = false;
 
-            while (!back)
-            {
+            while (!back){
                 ConsoleHelper.DisplayHeader("TRANSACTION MANAGEMENT");
                 
                 Console.WriteLine("1. Deposit");
@@ -110,8 +100,7 @@ namespace BankingSystem.UI
                 
                 string choice = ConsoleHelper.ReadString("\nSelect an option: ");
 
-                switch (choice)
-                {
+                switch (choice){
                     case "1":
                         PerformDeposit();
                         break;
@@ -135,12 +124,10 @@ namespace BankingSystem.UI
             }
         }
 
-        private void ShowLoanMenu()
-        {
+        private void ShowLoanMenu(){
             bool back = false;
 
-            while (!back)
-            {
+            while (!back){
                 ConsoleHelper.DisplayHeader("LOAN MANAGEMENT");
                 
                 Console.WriteLine("1. Apply for Loan");
@@ -151,8 +138,7 @@ namespace BankingSystem.UI
                 
                 string choice = ConsoleHelper.ReadString("\nSelect an option: ");
 
-                switch (choice)
-                {
+                switch (choice){
                     case "1":
                         ApplyForLoan();
                         break;
@@ -176,10 +162,8 @@ namespace BankingSystem.UI
             }
         }
 
-        private void CreateAccount()
-        {
-            try
-            {
+        private void CreateAccount(){
+            try{
                 ConsoleHelper.DisplayHeader("CREATE NEW ACCOUNT");
                 
                 string customerName = ConsoleHelper.ReadString("Enter customer name: ");
@@ -189,48 +173,40 @@ namespace BankingSystem.UI
                 
                 ConsoleHelper.DisplaySuccess($"Account created successfully! Account Number: {account.AccountNumber}");
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex){
                 ConsoleHelper.DisplayError(ex.Message);
             }
             
             ConsoleHelper.PressEnterToContinue();
         }
 
-        private void ViewAccountDetails()
-        {
-            try
-            {
+        private void ViewAccountDetails(){
+            try{
                 ConsoleHelper.DisplayHeader("VIEW ACCOUNT DETAILS");
                 
                 string accountNumber = ConsoleHelper.ReadString("Enter account number: ");
                 _accountService.DisplayAccountDetails(accountNumber);
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex){
                 ConsoleHelper.DisplayError(ex.Message);
             }
             
             ConsoleHelper.PressEnterToContinue();
         }
 
-        private void ListAllAccounts()
-        {
+        private void ListAllAccounts(){
             ConsoleHelper.DisplayHeader("ALL ACCOUNTS");
             
             var accounts = _accountService.GetAllAccounts();
 
-            if (accounts.Count == 0)
-            {
+            if (accounts.Count == 0){
                 Console.WriteLine("No accounts found.");
             }
-            else
-            {
+            else{
                 Console.WriteLine($"{"Account No",-15} {"Customer Name",-25} {"Balance",15}");
                 Console.WriteLine(new string('-', 55));
                 
-                foreach (var account in accounts)
-                {
+                foreach (var account in accounts){
                     Console.WriteLine($"{account.AccountNumber,-15} {account.CustomerName,-25} ${account.Balance,13:N2}");
                 }
             }
@@ -238,10 +214,8 @@ namespace BankingSystem.UI
             ConsoleHelper.PressEnterToContinue();
         }
 
-        private void PerformDeposit()
-        {
-            try
-            {
+        private void PerformDeposit(){
+            try{
                 ConsoleHelper.DisplayHeader("DEPOSIT");
                 
                 string accountNumber = ConsoleHelper.ReadString("Enter account number: ");
@@ -251,18 +225,15 @@ namespace BankingSystem.UI
                 
                 ConsoleHelper.DisplaySuccess($"Successfully deposited ${amount:N2} to account {accountNumber}");
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex){
                 ConsoleHelper.DisplayError(ex.Message);
             }
             
             ConsoleHelper.PressEnterToContinue();
         }
 
-        private void PerformWithdrawal()
-        {
-            try
-            {
+        private void PerformWithdrawal(){
+            try{
                 ConsoleHelper.DisplayHeader("WITHDRAWAL");
                 
                 string accountNumber = ConsoleHelper.ReadString("Enter account number: ");
@@ -272,18 +243,15 @@ namespace BankingSystem.UI
                 
                 ConsoleHelper.DisplaySuccess($"Successfully withdrew ${amount:N2} from account {accountNumber}");
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex){
                 ConsoleHelper.DisplayError(ex.Message);
             }
             
             ConsoleHelper.PressEnterToContinue();
         }
 
-        private void PerformTransfer()
-        {
-            try
-            {
+        private void PerformTransfer(){
+            try{
                 ConsoleHelper.DisplayHeader("TRANSFER");
                 
                 string fromAccount = ConsoleHelper.ReadString("Enter source account number: ");
@@ -294,35 +262,29 @@ namespace BankingSystem.UI
                 
                 ConsoleHelper.DisplaySuccess($"Successfully transferred ${amount:N2} from {fromAccount} to {toAccount}");
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex){
                 ConsoleHelper.DisplayError(ex.Message);
             }
             
             ConsoleHelper.PressEnterToContinue();
         }
 
-        private void ViewTransactionHistory()
-        {
-            try
-            {
+        private void ViewTransactionHistory(){
+            try{
                 ConsoleHelper.DisplayHeader("TRANSACTION HISTORY");
                 
                 string accountNumber = ConsoleHelper.ReadString("Enter account number: ");
                 _transactionService.DisplayTransactionHistory(accountNumber);
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex){
                 ConsoleHelper.DisplayError(ex.Message);
             }
             
             ConsoleHelper.PressEnterToContinue();
         }
 
-        private void ApplyForLoan()
-        {
-            try
-            {
+        private void ApplyForLoan(){
+            try{
                 ConsoleHelper.DisplayHeader("APPLY FOR LOAN");
                 
                 string accountNumber = ConsoleHelper.ReadString("Enter account number: ");
@@ -336,18 +298,15 @@ namespace BankingSystem.UI
                 Console.WriteLine($"Monthly Payment: ${loan.CalculateMonthlyPayment():N2}");
                 Console.WriteLine($"Total Amount to Pay: ${loan.OutstandingAmount:N2}");
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex){
                 ConsoleHelper.DisplayError(ex.Message);
             }
             
             ConsoleHelper.PressEnterToContinue();
         }
 
-        private void MakeLoanPayment()
-        {
-            try
-            {
+        private void MakeLoanPayment(){
+            try{
                 ConsoleHelper.DisplayHeader("MAKE LOAN PAYMENT");
                 
                 string loanNumber = ConsoleHelper.ReadString("Enter loan number: ");
@@ -357,57 +316,47 @@ namespace BankingSystem.UI
                 
                 ConsoleHelper.DisplaySuccess($"Payment of ${amount:N2} processed successfully!");
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex){
                 ConsoleHelper.DisplayError(ex.Message);
             }
             
             ConsoleHelper.PressEnterToContinue();
         }
 
-        private void ViewLoanDetails()
-        {
-            try
-            {
+        private void ViewLoanDetails(){
+            try{
                 ConsoleHelper.DisplayHeader("VIEW LOAN DETAILS");
                 
                 string loanNumber = ConsoleHelper.ReadString("Enter loan number: ");
                 _loanService.DisplayLoanDetails(loanNumber);
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex){
                 ConsoleHelper.DisplayError(ex.Message);
             }
             
             ConsoleHelper.PressEnterToContinue();
         }
 
-        private void ViewAccountLoans()
-        {
-            try
-            {
+        private void ViewAccountLoans(){
+            try{
                 ConsoleHelper.DisplayHeader("VIEW ACCOUNT LOANS");
                 
                 string accountNumber = ConsoleHelper.ReadString("Enter account number: ");
                 var loans = _loanService.GetAccountLoans(accountNumber);
 
-                if (loans.Count == 0)
-                {
+                if (loans.Count == 0){
                     Console.WriteLine("No loans found for this account.");
                 }
-                else
-                {
+                else{
                     Console.WriteLine($"\n{"Loan No",-12} {"Principal",12} {"Rate",8} {"Duration",10} {"Outstanding",15} {"Status",-12}");
                     Console.WriteLine(new string('-', 70));
                     
-                    foreach (var loan in loans)
-                    {
+                    foreach (var loan in loans){
                         Console.WriteLine($"{loan.LoanNumber,-12} ${loan.PrincipalAmount,10:N2} {loan.InterestRate,6}% {loan.DurationInMonths,8}m ${loan.OutstandingAmount,13:N2} {(loan.IsActive ? "Active" : "Paid"),-12}");
                     }
                 }
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex){
                 ConsoleHelper.DisplayError(ex.Message);
             }
             

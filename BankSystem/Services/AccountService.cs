@@ -2,44 +2,38 @@ using BankingSystem.Entities;
 using BankingSystem.Interfaces;
 using BankingSystem.Utilities;
 
-namespace BankingSystem.Services
-{
-    public class AccountService : IAccountService
-    {
+namespace BankingSystem.Services{
+    public class AccountService : IAccountService{
         private readonly IAccountRepository _accountRepository;
         private readonly IIdGenerator _idGenerator;
 
-        public AccountService(IAccountRepository accountRepository, IIdGenerator idGenerator)
-        {
+        public AccountService(IAccountRepository accountRepository, IIdGenerator idGenerator){
             _accountRepository = accountRepository;
             _idGenerator = idGenerator;
         }
 
-        public Account CreateAccount(string customerName, decimal initialBalance)
-        {
+        public Account CreateAccount(string customerName, decimal initialBalance){
             ValidateCustomerName(customerName);
             ValidateInitialBalance(initialBalance);
 
             string accountNumber = _idGenerator.GenerateAccountNumber();
             var account = new Account(accountNumber, customerName, initialBalance);
-            
+
             _accountRepository.Add(account);
-            
+
             return account;
         }
 
-        public Account GetAccount(string accountNumber)
-        {
+        public Account GetAccount(string accountNumber){
             var account = _accountRepository.GetByAccountNumber(accountNumber);
-            
+
             if (account == null)
                 throw new InvalidOperationException($"Account {accountNumber} not found");
 
             return account;
         }
 
-        public void DisplayAccountDetails(string accountNumber)
-        {
+        public void DisplayAccountDetails(string accountNumber){
             var account = GetAccount(accountNumber);
 
             Console.WriteLine("\n" + new string('=', 50));
@@ -53,19 +47,16 @@ namespace BankingSystem.Services
             Console.WriteLine(new string('=', 50));
         }
 
-        public List<Account> GetAllAccounts()
-        {
+        public List<Account> GetAllAccounts(){
             return _accountRepository.GetAll();
         }
 
-        private void ValidateCustomerName(string customerName)
-        {
+        private void ValidateCustomerName(string customerName){
             if (string.IsNullOrWhiteSpace(customerName))
                 throw new ArgumentException("Customer name cannot be empty");
         }
 
-        private void ValidateInitialBalance(decimal initialBalance)
-        {
+        private void ValidateInitialBalance(decimal initialBalance){
             if (initialBalance < 0)
                 throw new ArgumentException("Initial balance cannot be negative");
         }

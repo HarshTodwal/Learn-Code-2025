@@ -4,12 +4,9 @@ using BankingSystem.Services;
 using BankingSystem.UI;
 using BankingSystem.Utilities;
 
-namespace BankingSystem
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+namespace BankingSystem{
+    class Program{
+        static void Main(string[] args){
             var idGenerator = new IdGenerator();
             
             var accountRepository = new AccountRepository();
