@@ -1,0 +1,570 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\financetracker.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:financetracker.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\services\\budgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:services\\budgetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\repositories\\budgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:repositories\\budgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\models\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:models\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\interfaces\\ibudgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:interfaces\\ibudgetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\dtos\\transactionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:dtos\\transactionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\dtos\\budgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:dtos\\budgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\common\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:common\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\common\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:common\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\common\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:common\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\adapter\\consolenotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:adapter\\consolenotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|c:\\users\\deepanshu.k\\onedrive - intimetec visionsoft pvt. ltd.,\\desktop\\learnandcode\\assignments_lnc\\financetrackerassignment\\financetracker.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F55ED79-AFE0-48EB-A51E-AB59116EFC5E}|FinanceTracker.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 403,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "Services\\ReportService.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Services\\ReportService.cs",
+              "RelativeToolTip": "Services\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:39:24.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Services\\TransactionService.cs",
+              "RelativeDocumentMoniker": "Services\\TransactionService.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Services\\TransactionService.cs",
+              "RelativeToolTip": "Services\\TransactionService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwBgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:36:11.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:38:27.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-31T16:43:05.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FinanceTracker.API.http",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\FinanceTracker.API.http",
+              "RelativeDocumentMoniker": "FinanceTracker.API.http",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\FinanceTracker.API.http",
+              "RelativeToolTip": "FinanceTracker.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-31T16:43:11.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:17:18.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BudgetService.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Services\\BudgetService.cs",
+              "RelativeDocumentMoniker": "Services\\BudgetService.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Services\\BudgetService.cs",
+              "RelativeToolTip": "Services\\BudgetService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:37:26.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:33:12.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Repositories\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\TransactionRepository.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Repositories\\TransactionRepository.cs",
+              "RelativeToolTip": "Repositories\\TransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:31:31.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BudgetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Repositories\\BudgetRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BudgetRepository.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Repositories\\BudgetRepository.cs",
+              "RelativeToolTip": "Repositories\\BudgetRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:32:39.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:27:01.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Models\\Transaction.cs",
+              "RelativeToolTip": "Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:25:39.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Budget.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Models\\Budget.cs",
+              "RelativeDocumentMoniker": "Models\\Budget.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Models\\Budget.cs",
+              "RelativeToolTip": "Models\\Budget.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:26:24.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:24:28.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:30:27.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ITransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Interfaces\\ITransactionRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ITransactionRepository.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Interfaces\\ITransactionRepository.cs",
+              "RelativeToolTip": "Interfaces\\ITransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:29:21.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Interfaces\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\INotificationService.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Interfaces\\INotificationService.cs",
+              "RelativeToolTip": "Interfaces\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:30:55.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBudgetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Interfaces\\IBudgetRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IBudgetRepository.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Interfaces\\IBudgetRepository.cs",
+              "RelativeToolTip": "Interfaces\\IBudgetRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:29:58.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:28:42.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TransactionRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\DTOs\\TransactionRequestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\TransactionRequestDto.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\DTOs\\TransactionRequestDto.cs",
+              "RelativeToolTip": "DTOs\\TransactionRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:27:53.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BudgetDto.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\DTOs\\BudgetDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\BudgetDto.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\DTOs\\BudgetDto.cs",
+              "RelativeToolTip": "DTOs\\BudgetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:28:16.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:41:46.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "Controllers\\TransactionController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwCgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:40:48.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "Controllers\\ReportController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:42:12.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BudgetController.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Controllers\\BudgetController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BudgetController.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Controllers\\BudgetController.cs",
+              "RelativeToolTip": "Controllers\\BudgetController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:41:17.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ValidationException.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Common\\ValidationException.cs",
+              "RelativeDocumentMoniker": "Common\\ValidationException.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Common\\ValidationException.cs",
+              "RelativeToolTip": "Common\\ValidationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:23:25.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Common\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Common\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Common\\NotFoundException.cs",
+              "RelativeToolTip": "Common\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:23:47.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppException.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Common\\AppException.cs",
+              "RelativeDocumentMoniker": "Common\\AppException.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Common\\AppException.cs",
+              "RelativeToolTip": "Common\\AppException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:23:00.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Common\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "Common\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:20:47.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ConsoleNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Adapter\\ConsoleNotificationService.cs",
+              "RelativeDocumentMoniker": "Adapter\\ConsoleNotificationService.cs",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Adapter\\ConsoleNotificationService.cs",
+              "RelativeToolTip": "Adapter\\ConsoleNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T16:35:28.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\deepanshu.k\\OneDrive - InTimeTec Visionsoft Pvt. Ltd.,\\Desktop\\LearnAndCode\\Assignments_LNC\\FinanceTrackerAssignment\\FinanceTracker.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-31T16:45:14.397Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 245,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
